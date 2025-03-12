@@ -1,0 +1,105 @@
+/* Background Color */
+.bg-color {
+    background-color: lightblue;
+}
+
+/* Background Image */
+.bg-image {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Background Gradient (Linear) */
+.bg-gradient-linear {
+    background: linear-gradient(to right, red, yellow);
+}
+
+/* Background Gradient (Radial) */
+.bg-gradient-radial {
+    background: radial-gradient(circle, blue, green);
+}
+
+/* Background Gradient (Conic) */
+.bg-gradient-conic {
+    background: conic-gradient(red, yellow, green, blue);
+}
+
+/* Background Repeat */
+.bg-repeat {
+    background-image: url('pattern.png');
+    background-repeat: repeat;
+}
+
+/* Background No-Repeat */
+.bg-no-repeat {
+    background-image: url('pattern.png');
+    background-repeat: no-repeat;
+}
+
+/* Background Repeat X */
+.bg-repeat-x {
+    background-image: url('pattern.png');
+    background-repeat: repeat-x;
+}
+
+/* Background Repeat Y */
+.bg-repeat-y {
+    background-image: url('pattern.png');
+    background-repeat: repeat-y;
+}
+
+/* Background Size */
+.bg-size-cover {
+    background-size: cover;
+}
+
+.bg-size-contain {
+    background-size: contain;
+}
+
+.bg-size-auto {
+    background-size: auto;
+}
+
+/* Background Position */
+.bg-position-center {
+    background-position: center;
+}
+
+.bg-position-top {
+    background-position: top;
+}
+
+.bg-position-bottom {
+    background-position: bottom;
+}
+
+.bg-position-left {
+    background-position: left;
+}
+
+.bg-position-right {
+    background-position: right;
+}
+
+/* Background Attachment */
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-scroll {
+    background-attachment: scroll;
+}
+
+.bg-local {
+    background-attachment: local;
+}
+
+/* Multiple Backgrounds */
+.bg-multiple {
+    background: url('bg1.png'), url('bg2.png');
+    background-repeat: no-repeat, repeat;
+    background-position: left top, right bottom;
+}
